@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./App.css";
-import weatherStore from './app/store'
-import WeatherWidget from './app/moduls/widgetContainer'
+import weatherStore from "./app/store";
+import WeatherWidget from "./app/moduls/widgetContainer";
 import {
   BrowserRouter as Router,
   Switch,
@@ -19,7 +19,7 @@ function App() {
   return (
     <Router>
       <ul>
-        <Link to="/">
+        <Link to="/WeatherWidgetRouterThunk">
           <li>Москва</li>
         </Link>
         <Link to="/spb">
@@ -30,7 +30,7 @@ function App() {
         </Link>
       </ul>
       <Switch>
-        <Route exact path="/">
+        <Route exact path="/WeatherWidgetRouterThunk">
           <WeatherWidget store={weatherStore} city="Moscow"></WeatherWidget>
         </Route>
         <Route path="/spb">
@@ -49,6 +49,5 @@ function App() {
     </Router>
   );
 }
-
 
 export default App;
