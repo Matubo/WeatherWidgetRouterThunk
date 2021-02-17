@@ -4,7 +4,7 @@
 Для отображения прелоадера и асинхронного обновления данных использовал, React Thunk для выбора города React Router. 
 
 ### Ссылка:
-- [matubo.github.io/WeatherWidgetRouterThunk/](matubo.github.io/WeatherWidgetRouterThunk/)
+- [https://matubo.github.io/WeatherWidgetRouterThunk/](matubo.github.io/WeatherWidgetRouterThunk/)
 
 # WeatherWidgetRouterThunk
 
